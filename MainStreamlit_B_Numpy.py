@@ -6,7 +6,7 @@ from PIL import Image
 
 # Load the pre-trained model
 # (Sesuai dengan path model Anda (model terbaik yang di dump dalam format .h5))
-model = r('C:\Users\LENOVO\Documents\Semester 5\Pembelajaran mesin dan mendalam\Bagian 6\Tugas6_B_11692\BestModel_MobileNet_Numpy.h5')
+model = (r'C:\Users\LENOVO\Documents\Semester 5\Pembelajaran mesin dan mendalam\Bagian 6\Tugas6_B_11692\BestModel_MobileNet_Numpy.h5')
 class_names = ["Biji", "Tunas", "tumbuhan_dewasa"]
 
 # Function to preprocess and classify image
